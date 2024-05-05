@@ -9,7 +9,7 @@
       integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
       crossorigin="anonymous"
     />
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -19,42 +19,48 @@
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar fixed-top navbar-expand-lg bg-dark py-3">
       <div class="container">
-        <a href="#" class="navbar-brand text-warning"
-          >موسسه ستاره شناسی </a
+        <a href="#" class="navbar-brand">موسسه ستاره شناسی </a>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
         >
-        <div class="collapse navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link text-warning">آموزش<i class="bi bi-chevron-down align-bottom"></i></a>
+              <a href="#" class="nav-link"
+                >آموزش<i class="bi bi-chevron-down align-bottom"></i
+              ></a>
             </li>
             <li class="nav-item">
-              <a href="#foroshgah" class="nav-link text-warning"
-                >  فروشگاه<i class="bi bi-chevron-down align-bottom"></i>
-                </a
-              >
+              <a href="#foroshgah" class="nav-link">
+                فروشگاه<i class="bi bi-chevron-down align-bottom"></i>
+              </a>
             </li>
             <li class="nav-item">
-              <a href="#belag" class="nav-link text-warning"
-                >وبلاگ<i class="bi bi-chevron-down align-bottom"></i></a
-              >
+              <a href="#belag" class="nav-link"
+                >وبلاگ<i class="bi bi-chevron-down align-bottom"></i
+              ></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <footer class="py-5 bg-dark text-light position-relative mt-auto">
-        <div class="text-center ">
-          <P class="lead">
-            Copyright &copy; 2020 |institute of astronomy
-          </P>
-        </div>
-        </footer>
-        
-            <script
-              src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-              integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-              crossorigin="anonymous"
-            ></script>
-          </body>
-        </html>
+    <footer class="py-5 bg-dark position-relative mt-auto">
+      <div class="text-center">
+        <p class="lead">Copyright &copy; 2020 |institute of astronomy</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

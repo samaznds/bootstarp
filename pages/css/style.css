@@ -4,14 +4,9 @@ body::before {
     height: 60px;
   }
   .bg-dark {
-    background-color: rgb(42, 41, 41) !important;
+    background-color: rgb(214, 198, 198) !important;
   }
-  .d-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 4fr !important;
-    row-gap: 20px;
-    column-gap: 20px;
-  }
+
   .btn-dark {
     transition: opacity 0.2s !important;
     border-radius: 22px;
@@ -20,9 +15,7 @@ body::before {
   .btn-dark:hover {
     opacity: 0.5;
   }
-  .text-warning {
-    color: rgb(207, 186, 146) !important;
-  }
+
   .btn-warning {
     background-color: rgb(79, 100, 124);
     border: none;
@@ -35,5 +28,5 @@ body::before {
     background-color: rgb(223, 223, 235) !important;
   }
   .bg-info{
-      background-color:  rgb(207, 186, 146) !important;;
+    background-color: rgb(79, 100, 124) !important;
   }
